@@ -4,9 +4,9 @@
 ### Day 4: June 16, 2019 
 ##### 
 
-**Today's Progress**: Working on Basic HTML & HTML5 using freecodecamp curriculum. Today progress "Create a Set of Checkboxes" until "Define the Head and Body of an HTML Document".
+**Today's Progress**: Working on Basic HTML & HTML5 using freecodecamp curriculum. Today progress "Create a Set of Checkboxes" until "Define the Head and Body of an HTML Document". Proceed with CSS basic from "Change the Color of Text" until "Add Different Padding to Each Side of an Element".
 
-**Thoughts**: Refresh back what i learned before and learn new things etc (form, checkbox, button & radio button)
+**Thoughts**: Refresh back what i learned before and learn new things etc (form, checkbox, button & radio button). 
 
 **Link(s) to work**:
 
