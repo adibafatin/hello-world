@@ -1,6 +1,15 @@
 # hello-world
 #100daysofcode challenge
 
+### Day 4: June 17, 2019 
+##### 
+
+**Today's Progress**: Working on CSS basic from "Add Different Margins to Each Side of an Element" until "Use CSS Variables to change several elements at once".
+
+**Thoughts**: Learn new things. Can Understand the instruction easier. Having funs doing the curriculum. :D
+
+**Link(s) to work**:
+
 ### Day 4: June 16, 2019 
 ##### 
 
