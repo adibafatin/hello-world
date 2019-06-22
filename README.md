@@ -1,6 +1,15 @@
 # hello-world
 #100daysofcode challenge
 
+### Day 5: June 20, 2019 
+##### 
+
+**Today's Progress**: Working on CSS basic from "Create a custom CSS Variable" until "Use a media query to change a variable".
+
+**Thoughts**: Learn new things. Can Understand the instruction easier. Having difficulties on variables.
+
+**Link(s) to work**:
+
 ### Day 4: June 18, 2019 
 ##### 
 
