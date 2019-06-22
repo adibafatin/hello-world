@@ -1,6 +1,16 @@
 # hello-world
 #100daysofcode challenge
 
+
+### Day 6: June 22, 2019 
+##### 
+
+**Today's Progress**: Working on Applied Visual Design from "Create Visual Balance Using the text-align Property" until "Adjust the Hue of a Color".
+
+**Thoughts**: Stuck on the tones of colour. Couldn't pass the test. Waiting for respond on "Ask help".
+
+**Link(s) to work**:
+
 ### Day 5: June 20, 2019 
 ##### 
 
