@@ -1,38 +1,170 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>100daysofcode Challenge</title>
-	</head>
-	<body>
-		<h2>CatPhotoApp</h2>
-		<main>
-			<a href="http://freecatphotoapp.com" target="_blank">Cat Photo</a>
-			<img src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back.">
-			<p> Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff. Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched. Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
-			<p>Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched. Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff. Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched.</p>
-			<p>Meowwww loved it, hated it, loved it, hated it yet spill litter box, scratch at owner, destroy all furniture, especially couch or lay on arms while you're using the keyboard. Missing until dinner time toy mouse squeak roll over. With tail in the air lounge in doorway. Man running from cops stops to pet cats, goes to jail.</p>
-			<p>Intently stare at the same spot poop in the plant pot but kitten is playing with dead mouse. Get video posted to internet for chasing red dot leave fur on owners clothes meow to be let out and mesmerizing birds leave fur on owners clothes or favor packaging over toy so purr for no reason. Meow to be let out play time intently sniff hand run outside as soon as door open yet destroy couch.</p>
-			<p>Things cat love:</p>
-			<ul>
-				<li>cat nip</li>
-				<li>laser pointers</li>
-				<li>lasagna</li>
-			</ul>
-			<p>Top 3 things cat hate:</p>
-			<ol>
-				<li>flea treatment</li>
-				<li>thunder</li>
-				<li>other cats</li>
-			</ol>
+<head>
+	<title>100daysofcode Challenge</title>
+	<style>
+		body {
+		background: linear-gradient(90deg, #FFCCCC, #CCFFFF);
+		}
+
+		body {
+			margin: 0px;
+			font-family: Century gothic;
+		}
+
+		#Title {
+			float: left;
+			margin: 0px;
+			padding:5px 20px;
+			padding-right: 50%;
+			}
+
+		ul {
+			margin: 0px;
+			padding: 0px;
+			background-color: #FFCCCC;
+			list-style-type: none; <!-- List style normally show bullet point. by set it to none, will remove the bullet point -->
+		}
+
+		li a {
+			float: right;
+			display: block;
+			color: black;
+			text-align: center;
+			padding: 16px 16px;
+			text-decoration: none;
+		}
+
+		li a:hover {
+			color:black;
+			background: hsl(0, 100%, 95%);
 			
-			<form action="/submit-cat-photo">
-				<input type="type" placeholder="cat photo URL">
-				<button type="submit">Submit</button>
-			</form>
-				
-		</main>
-	</body>
-	
-	<footer>Copyright Cat Photo App</footer>
-	
+			}
+
+		div h2 {			
+			margin: 0px;
+		 	padding: 10px;
+		 	text-align: center;
+		 	clear: both; <!-- To stop #home from following nav bar floating left -->
+		}
+		div p {
+			text-align: center;
+		}
+
+		.row {margin: 0 -5px;
+			display: table;
+			width: 100%;
+			text-align: center;
+		}
+
+		/* Clear floats after the columns */
+		.row:after {
+		  content: "";
+		  display: table;
+		  clear: both;
+		}
+		  
+		.column {
+			display: table-cell;
+			float: left;
+			width: 30%;
+  			padding: 0px 10px;
+  			
+		}
+
+		/* Remove extra left and right margins, due to padding */
+		
+		.card {
+			  /* Add shadows to create the "card" effect */
+			  box-shadow: 0 4px 8px 0 rgba(,0,0,0.2);
+			  transition: 0.3s;
+			  background: hsl(0, 0%, 100%,0.5)
+
+			}
+
+			/* On mouse-over, add a deeper shadow */
+		.card:hover {
+			  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+			background: hsl(0, 100%, 95%);
+		
+	</style>	
+</head>
+
+<body>
+	<header>
+		<h1 id="Title">adibafatin</h1>
+		<nav>
+			<ul>
+				<li><a href="">Home</a></li>
+				<li><a href="">About Us</a></li>
+				<li><a href="">Projects</a></li>
+				<li><a href="">Contact Us</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<div id="Home" >
+		<h2>#100daysofcode</h2>
+		<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+	</div>	
+
+		<div id="diary" class="row">
+			<div class="column">
+				<div class="card">
+					<h3>Day 7: June 22, 2019</h3>
+					<strong>Today's Progress:</strong> Working on Applied Visual Design from "Create Visual Balance Using the text-align Property" until "Adjust the Hue of a Color".<br>
+					<strong>Thoughts:</strong> Stuck on the tones of colour. Couldn't pass the test. Waiting for respond on "Ask help".<br>
+				</div>
+			</div>
+			<div class="column">
+				<div class="card">
+					<h3>Day 6: June 20, 2019</h3>
+					<strong>Today's Progress:</strong> Working on CSS basic from "Create a custom CSS Variable" until "Use a media query to change a variable".<br>
+
+					<strong>Thoughts:</strong> Learn new things. Can Understand the instruction easier. Having difficulties on variables.
+				</div>
+			</div>
+			<div class="column">
+				<div class="card">
+					<h3>Day 5: June 18, 2019</h3>
+					<strong>Today's Progress:</strong> Working on CSS basic from "Add Different Margins to Each Side of an Element" until "Use CSS Variables to change several elements at once".<br>
+
+					<strong>Thoughts:</strong> Learn new things. Can Understand the instruction easier. Having funs doing the curriculum. :D
+				</div>
+			</div>
+			<div class="column">
+				<div class="card">
+					<h3>Day 4: June 16, 2019</h3>
+					<strong>Today's Progress:</strong> Working on Basic HTML & HTML5 using freecodecamp curriculum. Today progress "Create a Set of Checkboxes" until "Define the Head and Body of an HTML Document". Proceed with CSS basic from "Change the Color of Text" until "Add Different Padding to Each Side of an Element".<br>
+
+					<strong>Thoughts:</strong> Refresh back what i learned before and learn new things etc (form, checkbox, button & radio button).
+				</div>
+			</div>
+			<div class="column">
+				<div class="card">
+					<h3>Day 3: June 15, 2019</h3>
+					<strong>Today's Progress:</strong> Working on Basic HTML & HTML5 using freecodecamp curriculum. Today progress "Create a Set of Radio Buttons".<br>
+				</div>
+			</div>
+			<div class="column">
+				<div class="card">
+					<h3>Day 2: June 14, 2019</h3>
+					<strong>Today's Progress:</strong> Working on Basic HTML & HTML5 using freecodecamp curriculum. Today progress from "Nest an Anchor Element within a Paragraph" until "Use HTML5 to Require a Field".<br>
+
+					<strong>Thoughts:</strong> Learn something new. Love it and excited to use it. Getting more familiar with the instruction and terms.
+				</div>
+			</div>
+			<div class="column">
+				<div class="card">
+					<h3>Day 1: June 13, 2019</h3>
+					<p>First day of 100daysofcode Challenge. Wish me luck guys. I already learn HTML & CSS before but decide to start over using freecodecamp curriculum and planning to get thecertificates.</p><br>
+					<strong>Today's Progress:</strong> Working on Basic HTML & HTML5 using freecodecamp curriculum. Today progress from "Hello World" to Linked to Internal Sections of Page.<br>
+
+					<strong>Thoughts:</strong> Getting confuse the differences of tag & element. Other than that, passed the test.
+				</div>
+			</div>
+		
+		
+	</div>
+</body>
 </html>
