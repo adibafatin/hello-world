@@ -2,7 +2,16 @@
 #100daysofcode challenge
 
 
-### Day 6: June 22, 2019 
+### Day 8: June 27, 2019 
+##### 
+
+**Today's Progress**: Working on Applied Visual Design from "Adjust the Tone of a Color" until "Make Motion More Natural Using a Bezier Curve".
+
+**Thoughts**: Learn to make shape, transform, move and animate the shape.
+
+**Link(s) to work**:
+
+### Day 7: June 22, 2019 
 ##### 
 
 **Today's Progress**: Working on Applied Visual Design from "Create Visual Balance Using the text-align Property" until "Adjust the Hue of a Color".
@@ -11,7 +20,7 @@
 
 **Link(s) to work**:
 
-### Day 5: June 20, 2019 
+### Day 6: June 20, 2019 
 ##### 
 
 **Today's Progress**: Working on CSS basic from "Create a custom CSS Variable" until "Use a media query to change a variable".
@@ -20,7 +29,7 @@
 
 **Link(s) to work**:
 
-### Day 4: June 18, 2019 
+### Day 5: June 18, 2019 
 ##### 
 
 **Today's Progress**: Working on CSS basic from "Add Different Margins to Each Side of an Element" until "Use CSS Variables to change several elements at once".
